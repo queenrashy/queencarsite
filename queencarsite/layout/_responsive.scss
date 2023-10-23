@@ -1,0 +1,159 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        width: $width-md;
+    }
+
+    nav {
+
+        .container {
+
+            .logo {
+                width: 30rem;
+            }
+            
+            .btn {
+                display: inline-block;
+                background: transparent;
+                color:  rgb(9, 154, 202);
+                font-size: 4rem;
+                cursor: pointer;
+                margin-left: 30rem;
+            }
+
+            .m-l {
+                margin-left: 30rem;
+            }
+
+
+            .wrapper {
+                height: 50%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                display: none;
+
+                .icon-2 {
+                    margin-left: 4rem;
+                    margin-top: 2rem;
+
+                  
+                }
+                
+              
+
+                .nav__menu {
+                    flex-direction: column;
+                    margin-left: 4rem;
+                }
+            }
+
+            
+         
+        }
+        
+
+    }
+
+
+    .first {
+        height: 55vh;
+        .container {
+            div {
+                margin-top: -5rem;
+            }
+      
+        }
+    }
+
+
+    .second {
+        .container {
+            .wrapper {
+                grid-template-columns: 1fr 1fr;
+                gap:4rem;
+            }
+        }
+    }
+
+
+    .third {
+        .container {
+            grid-template-columns: 1fr;
+            row-gap: 4rem;
+        }
+    }
+
+
+    .fourth {
+        .container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px)  {
+    // nav {
+    //     .container {
+    //         .wrapper
+    //     }
+    // }
+    .container {
+        width: $width-sm;
+    }
+
+    .first {
+        height: 100vh;
+        .container {
+            div {
+                // h1 {
+
+                // }
+            }
+        }
+    }
+
+
+    .second {
+        .container {
+            .wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .third {
+        .container {
+            grid-template-columns: 1fr;
+
+            .img {
+                img {
+                    width: 30rem;
+                }
+            }
+        }
+    }
+
+
+    .fourth {
+        .container {
+            grid-template-columns: 1fr;
+
+            .img {
+                img {
+                    width: 30rem;
+                }
+            }
+
+        }
+    }
+
+
+}
